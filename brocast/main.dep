@@ -1,0 +1,1 @@
+./main.o main.dep:  main.cc BrocastDevice.hh gst_play.hh
