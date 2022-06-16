@@ -3,6 +3,10 @@
 
 bool creatjson(char* buf)
 {
+    if (!buf)
+    {
+    	return false;
+    }
     JSON_Value *root;
     JSON_Object *object;
     bool ret = false;
@@ -33,6 +37,10 @@ end:
 
 bool creatjson1(char* buf)
 {
+    if (!buf)
+    {
+    	return false;
+    }
     JSON_Value *root;
     JSON_Object *object;
     bool ret = false;
